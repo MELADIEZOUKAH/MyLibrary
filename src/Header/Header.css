@@ -93,7 +93,8 @@
         margin: 10px 0;
     }
     .header_name{
-        font-size: 24px;
+        font-size: 22px;
+        margin: 0 5px 0 0;
         height: 80px;
         line-height: 80px;
     }
