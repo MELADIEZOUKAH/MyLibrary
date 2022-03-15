@@ -18,6 +18,7 @@
 
 .header_right{   
     height: 100px;   
+    padding: 0;
 }
 .header_left{
     width: 30%;
@@ -25,17 +26,19 @@
       
 }
 .header_logo{
-    width: 17%;   
-    height: 100px;
+    width: 15%;   
+    height: 80px;
+    margin: 10px 0;
     float: right;
     border-radius: 50%;
 }
 .header_name{
     width: 75%;
     height: 100px;
+    line-height: 100px;
     float: right;
     color: white;
-    margin-right: 15px;
+    margin: 0 25px 0 0;
 }
 
 .dropbtn {
@@ -77,27 +80,29 @@
 @media only screen and (max-width: 600px) {
     .header{
         display: grid;
-        grid: 100px / 98%;
+        grid: 80px / 98%;
         grid-gap: 2%;
         width: 90%;
-        margin:0 ;
-        padding: 10px 0;
-        height: 200px;
+        margin: 30px 0 0 0;
+        
+        height: 160px;
     }
     .header_logo{
         width: 60px;
         height: 60px;
+        margin: 10px 0;
     }
     .header_name{
         font-size: 24px;
-        height: 60px;
+        height: 80px;
+        line-height: 80px;
     }
     .header_right{
         height: 40px;
     }
     .dropbtn{
         width: 100%;
-        margin: 25px 0;
+        
         
     }
     .dropdown-content{

@@ -1,21 +1,22 @@
 .headercollage{
     background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
-.header_right{
+.header_xx{
     width: 80%;
     padding: 30px 10%;
 }
-.header_logo{
-    width: 12%;   
-    height: 100px;
+.header_logoo{
+    width: 10%;   
+    height: 90px;
     float: right;
     border-radius: 50%;
+    margin: 20px 0 ;
 }
-.header_name{
+.header_x{
     direction: rtl;
-    width: 75%;
-    float: right;
-    margin: auto;
+    width: 87%;
+    padding: 15px;
+    margin: 0;
     height: 100px;
     line-height: 100px;
     color: white;
@@ -39,17 +40,17 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .header_right{
+    .header_xx{
         width: 100%;
         padding: 20px 0;
         height: 100px;
     }
-    .header_logo{
+    .header_logoo{
         width: 15%;
         height: 60px;
         margin: 20px 0;
     }
-    .header_name{
+    .header_x{
         margin-right: 10px;
     }
 
