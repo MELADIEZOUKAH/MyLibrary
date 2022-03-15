@@ -47,7 +47,7 @@ function Search({placeholder,data}) {
                   <img src={value.img} className="img"/>
                   <div style={{paddingRight:'20px'}}>
                     <p className='p'>{value.name}</p>
-                    <h5 style={{margin:'0',opacity:'0.5'}}>{value.name_book}</h5>
+                    <h5 style={{margin:'0',opacity:'0.5',color:"black"}}>{value.name_book}</h5>
                     
                   </div>
                   </a>
