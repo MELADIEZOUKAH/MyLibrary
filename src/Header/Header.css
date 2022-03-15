@@ -1,0 +1,118 @@
+#head{
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 550px;
+}
+.header{
+    width: 80%;
+    margin:0 10% 40px 10%;
+    display: grid;
+    grid: 100px / 71.5% 15%;
+    grid-gap: 0.1%;
+    justify-content: space-evenly;
+    height: 140px;
+    border-bottom: 2px solid white; 
+    padding: 90px 0 0 0;
+    
+}
+
+.header_right{   
+    height: 100px;   
+}
+.header_left{
+    width: 30%;
+    height: 100px; 
+      
+}
+.header_logo{
+    width: 17%;   
+    height: 100px;
+    float: right;
+    border-radius: 50%;
+}
+.header_name{
+    width: 75%;
+    height: 100px;
+    float: right;
+    color: white;
+    margin-right: 15px;
+}
+
+.dropbtn {
+    color: rgba(236, 227, 227, 0.884);
+    font-size: 32px;  
+    border: none;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(82, 75, 76, 0.747);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: wheat;
+    padding: 12px 16px;
+    width: 140px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: rgba(250, 247, 248, 0.664);color: black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {cursor: pointer;}
+
+.info{
+    width: 100% ;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        display: grid;
+        grid: 100px / 98%;
+        grid-gap: 2%;
+        width: 90%;
+        margin:0 ;
+        padding: 10px 0;
+        height: 200px;
+    }
+    .header_logo{
+        width: 60px;
+        height: 60px;
+    }
+    .header_name{
+        font-size: 24px;
+        height: 60px;
+    }
+    .header_right{
+        height: 40px;
+    }
+    .dropbtn{
+        width: 100%;
+        margin: 25px 0;
+        
+    }
+    .dropdown-content{
+        text-align: center;
+        left: 30%;
+    }
+    .dropdown-content a{
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .header{
+        width: 90%;
+        margin:0 5% 40px 5%;
+    }
+}

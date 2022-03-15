@@ -1,0 +1,62 @@
+.headercollage{
+    background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.header_right{
+    width: 80%;
+    padding: 30px 10%;
+}
+.header_logo{
+    width: 12%;   
+    height: 100px;
+    float: right;
+    border-radius: 50%;
+}
+.header_name{
+    direction: rtl;
+    width: 75%;
+    float: right;
+    margin: auto;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+}
+
+.link{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.link:hover{
+    background-color: rgb(94, 36, 36);
+}
+
+.department{
+    border-top: 2px solid white;
+    width: 100%;
+    display: grid;
+    grid: auto / 14% 14% 14% 14% 14% 14% 14% ;
+}
+
+@media only screen and (max-width: 600px) {
+    .header_right{
+        width: 100%;
+        padding: 20px 0;
+        height: 100px;
+    }
+    .header_logo{
+        width: 15%;
+        height: 60px;
+        margin: 20px 0;
+    }
+    .header_name{
+        margin-right: 10px;
+    }
+
+    .department{
+        width: 100%;
+        display: grid;
+        grid: auto / 32% 32% 32%;
+        grid-gap: 5px;
+    }
+}
