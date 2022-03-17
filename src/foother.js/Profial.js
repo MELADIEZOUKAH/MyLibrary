@@ -7,22 +7,43 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 
 function Profial() {
   return (
+    <div className='information'>
     <div className='foother'>
         <div className='desgin'> Desgin By : </div>
         <hr></hr>
-        <a href=""><div className='myPro'>
-            <img src="https://i.postimg.cc/rFjJxnkd/Free-Sample-By-Wix.jpg" alt="" className='logo_pro'/>
-            <p className='my_name'>ميلاد مصباح عزوكه</p>
-            <div>
-                <a href=""><FacebookIcon/></a>
-                <a href=""><TwitterIcon/></a> 
-                <a href=""><TelegramIcon/></a> 
-                <a href=""><DraftsIcon/></a>  
-            </div>
-                
+        <div className='myPro'>
+            
+             <div style={{height:"70px",padding:"16px 0"}}>
+             <a href="https://www.facebook.com/profile.php?id=100047661513631" target='_blank' style={{width:"0px",height:"0px"}}><img src="https://i.postimg.cc/rFjJxnkd/Free-Sample-By-Wix.jpg" alt=""  className='logo_pro'/></a>
+             </div> 
+             
+             <p className='my_name'>ميلاد مصباح عزوكه</p> 
+             
+              
+               
+             
+            <div className='media'>
+            <a href="" className='href'><div className='logo_media'>
+                  <FacebookIcon/>
+                  </div></a>
+                  <a href="" className='href'><div>
+                  <TwitterIcon/>
+                  </div></a> 
+                  <a href="" className='href'><div className='logo_media'>
+                  <TelegramIcon/>  
+                  </div></a>
+                  <a href="" className='href'><div className='logo_media'>
+                  <DraftsIcon/>  
+                </div></a>
+                 
+                  
+            
+                </div>    
         </div>
-        </a>
+        
+    </div>  
     </div>
+    
   )
 }
 

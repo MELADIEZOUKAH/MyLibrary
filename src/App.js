@@ -54,7 +54,7 @@ function App() {
           </Route>
           
         </Switch>
-         
+        <Profial/>
       </div>
     </Router>
   );

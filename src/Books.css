@@ -49,23 +49,21 @@
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-
+    
     .books{
-        grid: auto / 48% 48% ;
+        grid:auto / 48% 48% ;
         grid-gap: 1%;
         justify-content: right;
+        padding: 0 0 130px 0;
     }
     .div_outside{
-        max-height: 260px;
+        max-height: 240px;
     }
     .list_img{
-        max-height: 180px;
+        max-height: 170px;
     }
     .list_name{
-        max-height: 30px;
+        max-height: 20px;
         font-size: 17px;
     }
     .under_name{

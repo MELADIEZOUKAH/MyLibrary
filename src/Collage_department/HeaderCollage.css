@@ -51,7 +51,10 @@
         margin: 20px 0;
     }
     .header_x{
-        margin-right: 10px;
+        width: 80%;
+        font-size: 27px;
+        margin: 0px  ;
+        padding: 0;
     }
 
     .department{
