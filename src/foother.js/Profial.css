@@ -92,3 +92,8 @@ hr{
     grid: 40px / 50px 50px 50px 50px;
     }
 }
+@media only screen and (max-width: 400px){
+    .my_name{
+        margin-right:20px ;
+    }
+}
