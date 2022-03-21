@@ -17,7 +17,7 @@ function HeaderCollage() {
             <Link to='/civil_ingineering' className='link'><p>قسم المدنية </p></Link> 
             <Link to='/petroleum_engineering' className='link'><p>قسم النفطية</p></Link> 
             <Link to='/camical_ingineering' className='link' ><p>قسم الكيميائية</p></Link>  
-            <Link to='/' className='link'><p id='gneral'>القسم العام</p></Link>
+            <Link to='/' className='link' id="ga"><p id='gneral'>القسم العام</p></Link>
          </div>
    </div>
   )
