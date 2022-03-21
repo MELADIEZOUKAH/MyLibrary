@@ -9,7 +9,7 @@
     width: 90% ;
     margin: 3px ;
     height: auto;
-    background-color: rgba(33, 69, 122, 0.781);
+    background-image: linear-gradient(90deg, #583101, #a52a2a99);
 }
 
 .div_inside{

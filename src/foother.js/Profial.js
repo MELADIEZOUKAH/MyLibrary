@@ -24,13 +24,13 @@ function Profial() {
                   <a href="https://www.facebook.com/profile.php?id=100047661513631" className='href' target="_blank"> <FacebookIcon/></a>
                   </div>
                   <div className='logo_media'>
-                  <a href="" className='href' target="_blank"><TwitterIcon/></a>
+                  <a href="https://twitter.com/iezoukah" className='href' target="_blank"><TwitterIcon/></a>
                   </div> 
                   <div className='logo_media'>
                   <a href="" className='href' target="_blank"><TelegramIcon/> </a> 
                   </div>
                   <div className='logo_media'>
-                  <a href="" className='href' target="_blank"><DraftsIcon/></a>  
+                  <a href="mailto:meladeizoukah@gmail.com" className='href' target="_blank"><DraftsIcon/></a>  
                 </div>
                  
                   
