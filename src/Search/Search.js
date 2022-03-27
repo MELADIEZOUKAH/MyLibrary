@@ -40,7 +40,7 @@ function Search({placeholder,data}) {
         
         {filteredData.length !== 0 && (
         <div className='dataResult'>
-          {filteredData.slice(0,5).map((value,index)=>{
+          {filteredData.map((value,index)=>{
             return(
                 <div className='box_result' key={index}>
                 <a href={value.url} className='search_Reault' target='_blank'  >

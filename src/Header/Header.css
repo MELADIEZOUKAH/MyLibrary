@@ -26,8 +26,8 @@
       
 }
 .header_logo{
-    width: 15%;   
-    height: 80px;
+    width: 10%;   
+    height: 70px;
     margin: 10px 0;
     float: right;
     border-radius: 50%;
@@ -36,6 +36,7 @@
     width: 75%;
     height: 100px;
     line-height: 100px;
+    font-size: 35px;
     float: right;
     color: white;
     margin: 0 25px 0 0;
@@ -43,7 +44,8 @@
 
 .dropbtn {
     color: rgba(236, 227, 227, 0.884);
-    font-size: 32px;  
+    font-size: 32px;
+    width: 100%;  
     border: none;
     text-align: center;
     position: relative;
@@ -97,6 +99,7 @@
         margin: 0 5px 0 0;
         height: 80px;
         line-height: 80px;
+        width: 82%;
     }
     .header_right{
         height: 40px;
@@ -125,6 +128,12 @@
 
 @media only screen and (max-width: 400px){
     .header_name{
-        font-size: 20px;
+        font-size: 17px;
+        width: 80%;
+    }
+    .header_logo{
+        height: 50px;
+        width: 50px;
+        padding: 7px 0;
     }
 }

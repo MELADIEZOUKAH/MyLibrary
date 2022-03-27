@@ -1,6 +1,6 @@
 .information{
     width: 100%;
-    height: 90px;
+    height: 60px;
     margin: 0;
     background-color: rgba(51, 51, 51, 0.87);
     padding: 0;
@@ -19,29 +19,29 @@
 .myPro{
     padding: 0 25px;
     display: grid;
-    grid: 60px / 7% 50% 40%;
+    grid: 40px / 8% 50% 40%;
     justify-items: center;
 } 
 
 .logo_myPro{
-    height: 60px;
+    height: 40px;
     width: 80%;
     padding: 0 10%;
 }
 .logo_pro{
     border-radius: 50%;
     border: 2px solid white;
-    height: 56px;
-    width: 56px;
+    height: 35px;
+    width: 40px;
 }
 
 .my_name{
     width: 100%;
-    font-size: 25px;
-    line-height: 60px;
+    font-size: 20px;
+    line-height: 40px;
     margin: 0;
     direction: rtl;
-    height: 60px;
+    height: 40px;
 }
 
 hr{
@@ -76,18 +76,16 @@ hr{
     
     .myPro{
         display: grid;
-        grid:35px / 15% 85%;
+        grid:35px / 15% 45% 40%;
         grid-column: auto;
-        padding: 0 25px;
+        padding: 0 10px;
     }
     .information{
         padding-top: 5px;
-        height: 95px;
+        height: 65px;
     }
     .media{
         height: 40px;
-        grid-column-start: 2;
-        grid-column-end: 4;
         display: grid;
         grid: 40px / 30px 30px 30px 30px;
         
