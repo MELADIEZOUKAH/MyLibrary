@@ -22,6 +22,7 @@ function App() {
             <Header/>
             <Search placeholder='أدخل اسم المادة' data={books_data}/>
             <Books/>
+            <Profial/>
           </Route>
         
           <Route path='/electrical_engineering'>
@@ -54,7 +55,7 @@ function App() {
           </Route>
           
         </Switch>
-        <Profial/>
+        
       </div>
     </Router>
   );

@@ -1,15 +1,20 @@
 .books{
-    width: 90%;
+    width: 100%;
     display: grid;
-    grid: auto / 25% 25% 25% 25%;
+    grid: auto / 20% 20% 20% 20% 20%;
     justify-content: space-around;
-    margin: 20px 5%;
+    margin: 20px 0%;
+    
+    align-items: center;
 }
 .div_outside{
     width: 90% ;
-    margin: 3px ;
+   
+    margin: 3px 5% ;
     height: auto;
-    background-image: linear-gradient(90deg, #583101, #a52a2a99);
+    border-radius: 3px;
+    /* background-image: linear-gradient(90deg, #583101, #a52a2a99); */
+    background-color: #0A226D;
 }
 
 .div_inside{
@@ -21,6 +26,7 @@
     
 }
 .list_url{
+    
     text-decoration-line: none;
 }
 
@@ -44,7 +50,7 @@
     height: 20px;
     padding: 0;
     margin: 0 0 5px 0;
-    opacity: 0.5;
+    opacity: 0.6;
     font-size: 12px;
 }
 
