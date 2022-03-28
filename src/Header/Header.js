@@ -8,8 +8,8 @@ function Header() {
       
     <div className='header' style={{direction:"rtl"}}>
                 <div className='header_right'>
-                  <a href=""> <img src="https://scontent.fmji3-1.fna.fbcdn.net/v/t1.18169-9/425834_288816017855690_477423136_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7G8uIZqqdx0AX8ybiaW&_nc_ht=scontent.fmji3-1.fna&oh=00_AT-mqEJFl59pc3NDlxE8-Jn9EufbSz6uLC7Lnz1fyGiAgA&oe=624A2A29" alt="gg" className='header_logo'/></a>
-                  <a href=""> <h1 className='header_name'> مكتبة كلية الهندسة - جامعة المرقب </h1></a>
+                  <a href="https://www.facebook.com/engineering.elmergib/" target="_blank"> <img src="https://scontent.fmji3-1.fna.fbcdn.net/v/t1.18169-9/425834_288816017855690_477423136_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7G8uIZqqdx0AX8ybiaW&_nc_ht=scontent.fmji3-1.fna&oh=00_AT-mqEJFl59pc3NDlxE8-Jn9EufbSz6uLC7Lnz1fyGiAgA&oe=624A2A29" alt="gg" className='header_logo'/></a>
+                  <a href="https://www.facebook.com/engineering.elmergib/" target="_blank"> <h1 className='header_name'> مكتبة كلية الهندسة - جامعة المرقب </h1></a>
                 </div>  
         <div className="dropdown">
                     <p className="dropbtn">أقسام الكلية</p>

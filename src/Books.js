@@ -5,7 +5,7 @@ import './Books.css';
 function Books() {
   return (
     <div className='books'>
-    {books_pdf.map((list,index)=>{
+    {books_pdf.filter(booksss => booksss.id <100).map((list,index)=>{
             return (
             <div key={index} className="div_outside">
                 <a href={list.url} className="list_url" target='_blank'>

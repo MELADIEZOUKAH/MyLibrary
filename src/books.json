@@ -104,5 +104,208 @@
         "url":"https://drive.google.com/file/d/1AAwma2yK2RYo2J6uKkWeTHG2zHH_ZEPR/view?usp=sharing",
         "img":"https://i.postimg.cc/q7phbw09/image.jpg",
         "name_book":"عبد الله محمد النقراط"
+    },
+    {
+        "id": 101,
+        "name":"دوائر كهربائية 1",
+        "url":"",
+        "img":"https://i.postimg.cc/rFxgmrfL/boylestad.jpg",
+        "name_book":"boylestad"
+    },
+    {
+        "id": 102,
+        "name":"انظمة تحكم",
+        "url":"",
+        "img":"https://i.postimg.cc/W4b7XfT2/control-system.png",
+        "name_book":"nise"
+    },
+    {
+        "id": 103,
+        "name":" انظمة رقمية",
+        "url":"",
+        "img":"https://i.postimg.cc/JzQq3Ww6/Digital-1.jpg",
+        "name_book":"أحمد رمضان الزهراني"
+    },
+    {
+        "id": 104,
+        "name":"المعالج الدقيق",
+        "url":"",
+        "img":"https://i.postimg.cc/SQwDkr7r/microprocessor.jpg",
+        "name_book":"Ramesh S. Gaonkar"
+    },
+    {
+        "id":105,
+        "name":"دوائر كهربائية 2",
+        "url":"",
+        "img":"https://i.postimg.cc/Jz8xBzFH/sadeco.jpg",
+        "name_book":"sadeco"
+    },
+    {
+        "id":201 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 202,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 203,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":204 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 301,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 302,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 303,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":304 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 401,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":402 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":403 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 404,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":501 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":502 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":503 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 504,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 601,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 602,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 603,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":604 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id":701 ,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 702,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 703,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
+    },
+    {
+        "id": 704,
+        "name":"",
+        "url":"",
+        "img":"",
+        "name_book":""
     }
 ]
