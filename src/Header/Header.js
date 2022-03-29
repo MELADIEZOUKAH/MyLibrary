@@ -11,7 +11,7 @@ function Header() {
                   <a href="https://www.facebook.com/engineering.elmergib/" target="_blank"> <img src="https://scontent.fmji3-1.fna.fbcdn.net/v/t1.18169-9/425834_288816017855690_477423136_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=973b4a&_nc_ohc=7G8uIZqqdx0AX8ybiaW&_nc_ht=scontent.fmji3-1.fna&oh=00_AT-mqEJFl59pc3NDlxE8-Jn9EufbSz6uLC7Lnz1fyGiAgA&oe=624A2A29" alt="gg" className='header_logo'/></a>
                   <a href="https://www.facebook.com/engineering.elmergib/" target="_blank"> <h1 className='header_name'> مكتبة كلية الهندسة - جامعة المرقب </h1></a>
                 </div>  
-        <div className="dropdown">
+        <div className="dropdown" >
                     <p className="dropbtn">أقسام الكلية</p>
                     <div className="dropdown-content">
                         <a href="/electrical_engineering">الهندسة الكهربائية</a> 

@@ -108,35 +108,35 @@
     {
         "id": 101,
         "name":"دوائر كهربائية 1",
-        "url":"",
+        "url":"https://drive.google.com/file/d/12_V_2VQaI17B15vfml5gbVzpFYmWulUj/view?usp=sharing",
         "img":"https://i.postimg.cc/rFxgmrfL/boylestad.jpg",
         "name_book":"boylestad"
     },
     {
         "id": 102,
-        "name":"انظمة تحكم",
-        "url":"",
-        "img":"https://i.postimg.cc/W4b7XfT2/control-system.png",
-        "name_book":"nise"
+        "name":"الكترونات 1-2-3",
+        "url":"https://drive.google.com/file/d/1Fe5avvvxjDr6PwdKgKrZD4bJBG0UTMbt/view?usp=sharing",
+        "img":"https://i.postimg.cc/wMnSRZML/download.jpg",
+        "name_book":"boylestad"
     },
     {
         "id": 103,
         "name":" انظمة رقمية",
-        "url":"",
+        "url":"https://drive.google.com/file/d/1L6THi1Oq1qBghHBRk8rQ9uRy4593PYLN/view?usp=sharing",
         "img":"https://i.postimg.cc/JzQq3Ww6/Digital-1.jpg",
         "name_book":"أحمد رمضان الزهراني"
     },
     {
         "id": 104,
         "name":"المعالج الدقيق",
-        "url":"",
+        "url":"https://drive.google.com/file/d/1M0o5i0F1PKAg4EDJqXWynQiqDcnp60mO/view?usp=sharing",
         "img":"https://i.postimg.cc/SQwDkr7r/microprocessor.jpg",
         "name_book":"Ramesh S. Gaonkar"
     },
     {
         "id":105,
         "name":"دوائر كهربائية 2",
-        "url":"",
+        "url":"https://drive.google.com/file/d/1Min4dGV5BGKx_lSZFW_MdB412H_jKkem/view?usp=sharing",
         "img":"https://i.postimg.cc/Jz8xBzFH/sadeco.jpg",
         "name_book":"sadeco"
     },
@@ -198,37 +198,37 @@
     },
     {
         "id": 401,
-        "name":"",
-        "url":"",
-        "img":"",
+        "name":"نظرية الالات",
+        "url":"https://drive.google.com/file/d/1bC356zpzkqkGMO6w8xzR9bHHTF02B9-6/view?usp=sharing",
+        "img":"https://i.postimg.cc/zGskh5qx/064b284b9226bb65440a2f6fb09aa917.jpg",
         "name_book":""
     },
     {
         "id":402 ,
-        "name":"",
-        "url":"",
-        "img":"",
+        "name":"ديناميكا حرارية",
+        "url":"https://drive.google.com/file/d/1pI4bf6ZGqgSijlDzd6YjSzDx4NzLUR1U/view?usp=sharing",
+        "img":"https://i.postimg.cc/B6BwmRXx/fundamentals.jpg",
         "name_book":""
     },
     {
         "id":403 ,
-        "name":"",
-        "url":"",
-        "img":"",
+        "name":"انتقال حرارة",
+        "url":"https://drive.google.com/file/d/1aJD6b10SwJR6C0z6RlAYyM1KNvE25HQb/view?usp=sharing",
+        "img":"https://i.postimg.cc/Wb3f7Wjk/heat-transfer.png",
         "name_book":""
     },
     {
         "id": 404,
-        "name":"",
-        "url":"",
-        "img":"",
+        "name":"تصميم أجزاء",
+        "url":"https://drive.google.com/file/d/1oDGGQrmF6zpLxYcmLEONCITtP0qqhrlT/view?usp=sharing",
+        "img":"https://i.postimg.cc/FsBCCysn/machine.png",
         "name_book":""
     },
     {
-        "id":501 ,
-        "name":"",
-        "url":"",
-        "img":"",
+        "id":405 ,
+        "name":"ميكانيكا موائع 1-2",
+        "url":"https://drive.google.com/file/d/1BgLLcsdCQWDLQRmRvBQF-dPuTJTTuL0I/view?usp=sharing",
+        "img":"https://i.postimg.cc/k4mpF7XJ/fluid.jpg",
         "name_book":""
     },
     {
