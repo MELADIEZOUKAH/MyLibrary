@@ -8,7 +8,6 @@ import Electrical from './Collage_department/Electrical';
 import Mecanical from './Collage_department/Mecanical';
 import Architecture from './Collage_department/Architecture';
 import Civil from './Collage_department/Civil';
-import Petroleum from './Collage_department/Petroleum';
 import Camical from './Collage_department/Camical';
 import Profial from './foother.js/Profial'
 
@@ -42,11 +41,6 @@ function App() {
           <Route path='/civil_ingineering'>
             
             <Civil/>
-          </Route>
-        
-          <Route path='/petroleum_engineering'>
-            
-            <Petroleum/>
           </Route>
         
           <Route path='/camical_ingineering'>
