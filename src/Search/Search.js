@@ -6,17 +6,20 @@ import CloseIcon from '@material-ui/icons/Close';
 function Search({placeholder,data}) {
   const [filteredData,setfilteredData] = useState([])
   const [worldenter,setworldenter] = useState("")
-
+  
   const callfilter = ((event)=> {
       const searchword = event.target.value;
       setworldenter(searchword);
-      const newfilter = data.filter((value) => {
-        return value.name.includes(searchword)
+      const newfilter = data.filter((value) =>   {
+        return value.name.includes(searchword) || value.name_book.includes(searchword);
       });
+
       if(searchword === ""){
         setfilteredData([])
-      }else{
-        setfilteredData(newfilter)
+      }
+      
+      else{
+        setfilteredData(newfilter)  
       }
   });
   const clearworld = () =>{
@@ -24,7 +27,6 @@ function Search({placeholder,data}) {
     setworldenter("")
   }
   
-
   return (
     <div className='search'>
         <div className='searchInput'>
@@ -37,7 +39,7 @@ function Search({placeholder,data}) {
           )
           }
         </div>
-        
+     
         {filteredData.length !== 0 && (
         <div className='dataResult'>
           {filteredData.map((value,index)=>{
@@ -52,7 +54,6 @@ function Search({placeholder,data}) {
                   </div>
                   </a>
                 </div>
-              
             ) 
           })}
         </div>)}

@@ -95,13 +95,13 @@
     text-align: center;
     -webkit-text-stroke: 0.5px red;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
     .header{
         display: grid;
         grid: 80px / 98%;
         grid-gap: 2%;
         width: 90%;
-        margin: 30px 0 0 0;
+        margin: 0 ;
         padding: 50px 0 0 0 ;
         height: 160px;
     }
@@ -134,6 +134,7 @@
     .button{
         padding: 5px;
         margin: 5px;
+        width: 100%;
     }
     .dropdown-content a{
         width: 88%;
@@ -144,17 +145,103 @@
         -webkit-text-stroke: 0.1px rgb(158, 22, 22);
     }
 }
-
-@media only screen and (max-width: 950px){
+@media only screen and (max-width:1150px){
     .header{
         width: 90%;
-        margin:0 5% 40px 5%;
+        margin-left:5%;
+        margin-right: 5%;
+    }
+    .dropbtn{
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .header_name{
+        font-size: 40px;
+    }
+    .button{
+        width: 100%;
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 890px){
+    .header_logo{
+        padding: 5px 0;
+    }
+    .dropbtn{
+        margin-right: 10px;
+        padding: 20px 0;
+    }
+    .button{
+        width: 95%;
+        font-size: 35px;
+        padding: 15px 5px;
+    }
+    .books{
+        display: grid;
+        grid: auto / 25% 25% 25% 25%;
+    }
+    .dropdown-content{
+        left: 20px;
+    }
+}
+@media only screen and (max-width:790px){
     .header_name{
-        font-size: 21px;
+        font-size: 30px;
+        width: 80%;
+    }
+    .header_logo{
+        height: 50px;
+        padding: 15px 0;
+    }
+    .dropbtn{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width:725px){
+    .books{
+        display: grid;
+        grid: auto / 33% 33% 33%;
+
+    }
+}
+
+@media only screen and (max-width :685px){
+    .header_name{
+        font-size: 29px;
+        width: 87%;
+    }
+    .header_logo{
+        padding: 5px 0;
+    }
+    .dropbtn{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown-content{
+        width: 50%;
+        left: 25%;
+    }
+    .button{
+        width: 50%;
+        padding: 10px;
+    }
+    .info{
+        padding-top: 25px;
+    }
+    .books{
+        width: 94%;
+        padding: 0 3%;
+        padding-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .header_name{
+        font-size: 27px;
         width: 80%;
     }
     .header_logo{
@@ -162,10 +249,24 @@
         width: 50px;
         padding: 7px 0;
     }
+    .books{
+        display: grid;
+        grid: auto / 48% 48% ;
+        padding-bottom: 150px;
+    }
+    
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 365px){
     .header_name{
         font-size: 21px;
+    }
+    .dropdown-content{
+        font-size: 25px;
+        width: 65%;
+        left: 20%;
+    }
+    .books{
+        padding-bottom: 350px;
     }
 }
 
