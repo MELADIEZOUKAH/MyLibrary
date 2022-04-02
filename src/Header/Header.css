@@ -256,7 +256,16 @@
     }
     
 }
-@media only screen and (max-width: 365px){
+@media only screen and (max-width:440px){
+    .header{
+        width: 98%;
+       margin: 0 1%;
+    }
+    .header_name{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 370px){
     .header_name{
         font-size: 21px;
     }
@@ -266,7 +275,7 @@
         left: 20%;
     }
     .books{
-        padding-bottom: 350px;
+        padding-bottom: 250px;
     }
 }
 
