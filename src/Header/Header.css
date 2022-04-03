@@ -173,7 +173,7 @@
     }
     .button{
         width: 95%;
-        font-size: 35px;
+        font-size: 30px;
         padding: 15px 5px;
     }
     .books{
@@ -183,8 +183,11 @@
     .dropdown-content{
         left: 20px;
     }
+    .header_name{
+        font-size: 35px;
+    }
 }
-@media only screen and (max-width:790px){
+@media only screen and (max-width:806px){
     .header_name{
         font-size: 30px;
         width: 80%;
@@ -226,10 +229,6 @@
         width: 50%;
         left: 25%;
     }
-    .button{
-        width: 50%;
-        padding: 10px;
-    }
     .info{
         padding-top: 25px;
     }
@@ -237,6 +236,16 @@
         width: 94%;
         padding: 0 3%;
         padding-bottom: 40px;
+    }
+    .button{
+        margin:  0 ;
+        width: 90%;
+
+    }
+}
+@media only screen and (max-width: 635px ){
+    .button{
+        width: 70%;
     }
 }
 @media only screen and (max-width: 500px){
@@ -254,7 +263,11 @@
         grid: auto / 48% 48% ;
         padding-bottom: 150px;
     }
-    
+    .button{
+        margin: 0px;
+        padding: 5px 0;
+        width: 70%;
+    }
 }
 @media only screen and (max-width:440px){
     .header{
@@ -276,6 +289,10 @@
     }
     .books{
         padding-bottom: 250px;
+    }
+    .button{
+        padding:5px  ;
+        margin: 10px 0 ;
     }
 }
 
