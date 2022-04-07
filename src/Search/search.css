@@ -80,8 +80,22 @@ input:focus {
   }
 
   @media only screen and (max-width: 600px) {
+      .search{
+          width: 96%;
+          padding-left: 2%;
+          padding-right: 2%;
+      }
       .dataResult{
           width: 100%;
+      }
+      .search input{
+          font-size: 18px;
+      }
+      .searchInput{
+          width: 94%;
+          padding: 0;
+          grid: auto / 85% 15%;
+          justify-content: space-around;
       }
   }
   

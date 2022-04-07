@@ -10,14 +10,15 @@ function Books() {
             <div key={index} className="div_outside">
                 <a href={list.url} className="list_url" target='_blank'>
                   <div className='div_inside'>
-                    <img src={list.img} alt="sorry"  className="list_img"/>
+                    <img src={list.img} alt="sorry"  className="list_img"/>                                                          
+                    <div className='all_name'>
                     <p className='list_name'>{list.name}</p>
                     <p className='under_name'>{list.name_book}</p>
+                    </div>
                   </div>                 
                 </a>
             </div>  )   
         })} 
-           
     </div>
    
     

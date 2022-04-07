@@ -66,6 +66,12 @@ hr{
 .logo_media{
     width: 24px;
     height: 24px;
+    border-radius: 50%;
+}
+
+.logo_media:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 600px) {

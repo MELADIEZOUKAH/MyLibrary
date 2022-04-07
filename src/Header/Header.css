@@ -2,6 +2,7 @@
     width: 100%;
     background-image: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 550px;
+    background-repeat:no-repeat;
 }
 .header{
     width: 80%;
@@ -13,7 +14,6 @@
     height: 140px;
     border-bottom: 2px solid white; 
     padding: 90px 0 0 0;
-    
 }
 
 .header_right{   
@@ -64,6 +64,7 @@
     border: 2px solid rgb(233 214 214 / 66%);
     background-color: #41544114;
     color: white;
+    outline: none;
 }
 .dropdown-content {
     display: none;
