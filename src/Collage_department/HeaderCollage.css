@@ -41,7 +41,8 @@ a{
     border-top: 2px solid white;
     width: 100%;
     display: grid;
-    grid: auto / 14% 14% 14% 14% 14% 14% 14% ;
+    grid: auto / 16% 16% 16% 16% 16% 16% ;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,16 +63,17 @@ a{
         padding: 0;
         
     }
-    #ga{
-        grid-column-start: 1;
+    /* #ga{
+        grid-column-start: 2;
         grid-column-end: 4;
-    }
+    } */
 
     .department{
         width: 100%;
         display: grid;
-        grid: auto / 32% 32% 32%;
+        grid: auto / 100%;
         grid-gap: 5px;
+        background-color: rgba(0, 0, 0, 0.055);
     }
 }
 @media only screen and (max-width: 400px){

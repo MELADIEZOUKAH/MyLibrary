@@ -33,9 +33,9 @@ function Search({placeholder,data}) {
         <input type="text" placeholder={placeholder} value={worldenter} style={{paddingRight:'12px'}} onChange={callfilter}/>
         <div className='search_icon'>
           {filteredData.length === 0 ?(
-            <SearchIcon/>
+            <SearchIcon style={{color:'black'}}/>
           ) : (
-            <CloseIcon style={{cursor:'pointer'}} onClick={clearworld}/>
+            <CloseIcon style={{cursor:'pointer',color:'black'}} onClick={clearworld}/>
           )
           }
         </div>

@@ -9,7 +9,7 @@ function Header() {
     <div className='header' style={{direction:"rtl"}}>
                 <div className='header_right'>
                   <a href="https://kfe.elmergib.edu.ly" target="_blank"> <img src="https://i.postimg.cc/vB2HG7dj/logo.jpg" alt="gg" className='header_logo'/></a>
-                  <a href="https://kfe.elmergib.edu.ly" target="_blank"> <h1 className='header_name'> مكتبة كلية الهندسة - جامعة المرقب </h1></a>
+                  <a href="https://kfe.elmergib.edu.ly" target="_blank"> <h1 className='header_name'> مكتبة كلية الهندسة - الخمس </h1></a>
                 </div>  
         <div className="dropdown" >
                     <p className="dropbtn"><button className='button'>أقسام الكلية</button></p>

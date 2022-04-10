@@ -26,16 +26,11 @@ function App() {
         <div className='App'>
         <Switch>
         <ThemeProvider theme={themeMode}>
-        
             <GlobalStyles/>
-            
           <Route exact path='/'>
             <Header/>
             <Search placeholder='أدخل اسم المادة أو مؤلف الكتاب' data={books_data}/>
             <Books/>
-            
-            
-              
             <Profial/>
           </Route>
         
@@ -64,8 +59,7 @@ function App() {
        
         <button onClick={themeToggler}  className="dark_mode">{theme ==='dark'  ? '☾' : '☀'} </button>
       </div>
-    </Router>
-    
+    </Router>  
   );
 }
 
