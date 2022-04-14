@@ -246,9 +246,9 @@
 
     }
 }
-@media only screen and (max-width: 635px ){
+@media only screen and (max-width: 640px ){
     .button{
-        width: 70%;
+        width: 55%;
     }
 }
 @media only screen and (max-width: 500px){
@@ -269,7 +269,7 @@
     .button{
         margin: 0px;
         padding: 5px 0;
-        width: 70%;
+        width: 55%;
     }
     .dropdown-content{
         width: 80%;
@@ -285,12 +285,15 @@
        margin: 0 1% 5px 1%;
     }
     .header_name{
-        font-size: 25px;
+        font-size: 28px;
+    }
+    .button{
+        width: 50%;
     }
 }
 @media only screen and (max-width: 370px){
     .header_name{
-        font-size: 21px;
+        font-size: 26px;
     }
     .dropdown-content{
         font-size: 25px;
@@ -303,11 +306,15 @@
     .button{
         padding:5px  ;
         margin: 10px 0 ;
+        width: 55%;
     }
 }
 
 @media only screen and (max-width: 317px){
     .header_name{
-        font-size: 18px;
+        font-size: 24px;
+    }
+    .button{
+        width: 55%;
     }
 }
