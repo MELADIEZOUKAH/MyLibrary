@@ -8,7 +8,7 @@ function Search({placeholder,data}) {
   const [worldenter,setworldenter] = useState("")
   
   const callfilter = ((event)=> {
-      const searchword = event.target.value;
+      const searchword = event.target.value.toUpperCase();
       setworldenter(searchword);
       const newfilter = data.filter((value) =>   {
         return value.name.includes(searchword) || value.name_book.includes(searchword);
