@@ -4,7 +4,7 @@
     background-color: rgba(105, 88, 88, 0.3);
     border-radius: 50%;
     color: white;
-    position: fixed;
+    position: absolute;
     top: 5%;
     left: 5%;
     border: 0.2px solid rgba(6, 145, 138, 0);
@@ -13,4 +13,7 @@
     padding: 0;
     margin: 0;
     cursor: pointer;
+}
+.dark_mode:focus{
+    outline: none;
 }
